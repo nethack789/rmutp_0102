@@ -1,0 +1,16 @@
+#API
+
+GET  http://localhost:8080/api/users
+
+### Create a user
+
+POST http://localhost:8080/api/auth/local/register
+Content-Type: application/json
+
+{
+
+    "username":"PP22sfff1",
+    "email":"networknneess1222@gmail.com",
+    "password": "Networknneess_@1222"
+
+}
