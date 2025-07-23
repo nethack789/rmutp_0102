@@ -1,5 +1,5 @@
 #API
-
+@password={$env PASSWORD}
 GET  http://localhost:8080/api/users
 
 ### Create a user
@@ -11,6 +11,6 @@ Content-Type: application/json
 
     "username":"PP22sfff1",
     "email":"networknneess1222@gmail.com",
-    "password": "Networknneess_@1222"
+    "password": "{{password}}"
 
 }
