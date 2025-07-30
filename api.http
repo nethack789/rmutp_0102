@@ -2,7 +2,7 @@
 @username={{$dotenv USERNAME}}
 @password={{$dotenv PASSWORD}}
 @email={{$dotenv EMAIL}}
-@userId=2  #
+@userId=6  #
 
 ### Getting all users
 GET http://localhost:8080/api/users
